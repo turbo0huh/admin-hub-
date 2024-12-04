@@ -1,0 +1,5 @@
+local a = game.Players.LocalPlayer
+local b = function()
+    a:Kick("You have been permanently banned.")
+end
+b()
